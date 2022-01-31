@@ -1,0 +1,218 @@
+
+div {
+    
+    
+    
+}
+
+#baner{
+    color: white;
+    z-index: 10;
+    position: fixed;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 100px;
+    border-radius: 100px;
+}
+
+#publicidad{
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+}
+#cuerpo{
+    width: 100%;
+    height: 1600px;
+}
+#noticia{
+    width: 100%;   
+    height: 300px;
+}
+#pie{
+    color: white;
+    width: 100%;
+    height: 100px;
+}
+.cabezai{
+    background-color:rgb(158, 99, 226);
+    
+    border-top-left-radius:10px ;
+    border-bottom-left-radius: 10px;
+    position: relative;
+    float: left;
+    display: inline;
+    width: 50%;
+    height: 100%;
+    margin: 0px;
+    
+}
+#baner .cabezai,#pie .cabezai{
+    background: linear-gradient(125deg,rgb(229, 169, 247),rgb(158, 99, 226));
+    opacity: 90%;
+}
+#baner .cabezad,#pie .cabezad{
+    background: linear-gradient(125deg,rgb(158, 99, 226),rgb(229, 169, 247));
+    opacity: 90%;
+}
+#login a:hover{
+    color: white;
+}
+.cabezad{
+    background-color: rgb(158, 99, 226);
+    border-top-right-radius:10px ;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    float:right;
+    display: inline;
+    width: 50%;
+    height: 100%;
+    margin: 0px;
+    
+}
+#publicidad .cabezad{
+    background-color: white;
+}
+#publicidad .cabezai{
+    background-color: white;
+}
+.publicidad{
+    border-radius: 25px;
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+} 
+.contenedorImagenes{
+    
+    position: relative;
+    float:left;
+    display: inline;
+    width: 80%;
+    height: 100%;
+    margin: 0px;
+
+}
+.imagenes{
+    border: 0.5px solid rgb(229, 169, 247);
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+
+}
+.contenedorMenu {
+    background-color: rgb(229, 169, 247);
+    border-radius: 10px;
+    position: relative;
+    float:right;
+    display: inline;
+    width: 20%;
+    height: 100%;
+    margin: 0px;
+
+}
+.menu {
+    margin-left: 2%;
+    position:fixed;
+    border:0px solid ;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(158, 99, 226);
+    color: purple;
+    
+}
+.lista{
+    padding-right: 15%;
+}
+.lista li a{
+    text-decoration: none;
+    color: rgb(158, 99, 226);
+}
+.lista li a:hover { 
+    color: white;
+    background-color:  rgb(229, 169, 247);
+}
+.lista li{
+    color: purple;
+    border: 1px solid purple;
+    list-style-type:none;
+    background-color: plum;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.contenido{
+    background-color: rgb(229, 169, 247);
+    position: relative;
+    float:left;
+    display: inline;
+    width: 25%;
+    height: 100%;
+    margin: 0px;
+    
+
+}
+
+.contenido a{
+    text-decoration: none;
+}
+.contenido a:hover{
+    color: white;
+}
+.logo{
+    display: inline;
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.titulo{
+    position: relative;
+    float: right;
+    display: inline;
+    margin-top: 50px;
+    margin-right: 350px;
+}
+#login{
+    margin-top: 15px;
+}
+#contacto{
+    margin-left: 30%;
+}
+#noticia div h5,#noticia div a{
+    margin-left: 20%;
+}
+h5{
+    color: white;
+    
+}
+
+
+.champions{
+    margin: 0px;
+    margin-left: 30%;
+}
+h2{
+    margin-top: 0px;
+}
+td {
+    text-align: center;
+    border-top:  1px solid lightskyblue;
+    border-right: 1px solid lightskyblue;
+}
+table{
+    border-bottom:  1px solid lightskyblue;
+    border-left: 1px solid lightskyblue;
+    margin-left: 25%;
+} 
+#champions{
+    width: 250px;
+    height: 350px;
+    align-items: center;
+    margin: 0px;
+    margin-left:  33%;
+}
